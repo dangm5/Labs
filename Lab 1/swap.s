@@ -45,7 +45,7 @@ swap:
 	lw		t2, 4(t1)	#reg t2=zing[k+1]
 				
 	sw		t2, 0(t1)	
-	sw		t0, 4(t1)	
+	sw		t0, 4(t1)
 	ret		
 
 # END OF PROGRAM
